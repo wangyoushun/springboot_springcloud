@@ -13,8 +13,8 @@ import lombok.extern.slf4j.Slf4j;
 public class QuartzService {
 
 
-	// 每分钟启动
-	 @Scheduled(cron = "0/5 * * * * ?")
+	// 每5秒钟启动
+//	 @Scheduled(cron = "0/5 * * * * ?")
 	public void timerToNow() {
 		System.out.println("now time a:" + formatNow());
 	}
